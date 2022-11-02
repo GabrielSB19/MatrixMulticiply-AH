@@ -124,9 +124,9 @@ int main(int argc, char** argv) {
 
             /* multiply matrices and measure the time */
             // Start measuring time
-            int MatX = 1;              // label version 1, 2, 3, 4, 5 or 6
+            int MatX = 6;              // label version 1, 2, 3, 4, 5 or 6
             clock_t start = clock();
-            mMatrix1(n, A, B, C);     //select multMat1, multMat2, multMat3, multMat4, multMat5 or multMat6
+            mMatrix6(n, A, B, C);     //select multMat1, multMat2, multMat3, multMat4, multMat5 or multMat6
             // Stop measuring time and calculate the elapsed time
             clock_t end = clock();
 
